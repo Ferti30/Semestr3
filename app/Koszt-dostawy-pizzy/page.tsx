@@ -8,7 +8,7 @@ export default function PizzaPage() {
     const [deliveryCost, setDeliveryCost] = useState('');
 
     const calculateDeliveryCost = () => {
-        const costPerKm = 2.50; // Koszt dostawy za każdy kilometr
+        const costPerKm = 2.50; 
         const distanceInKm = parseFloat(distance);
 
         if (!isNaN(distanceInKm)) {

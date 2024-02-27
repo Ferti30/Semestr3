@@ -28,7 +28,7 @@ export default function Home() {
     const createTodo = useMutation(api.todos.createTodo);
     const todos = useQuery(api.todos.getTodos);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         createTodo({
             text,
