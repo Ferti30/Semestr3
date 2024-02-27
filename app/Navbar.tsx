@@ -21,8 +21,8 @@ import {
 
 export default function Heading() {
     return (
-        <div className="flex w-100 text-center justify-center">
-        <NavigationMenu>
+        <div className="flex w-90 text-center justify-center">
+            <NavigationMenu className="flex flex-wrap justify-center">
             <NavigationMenuItem>
                 <Link href="./" legacyBehavior passHref>
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
