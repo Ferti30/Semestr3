@@ -29,7 +29,7 @@ export default function RootLayout({
                     enableSystem
                     disableTransitionOnChange
                 >
-                    <Navbar/>ó
+                    <Navbar/>
                     <ConvexClientProvider>{children}</ConvexClientProvider>
                 </ThemeProvider>
             </body>
