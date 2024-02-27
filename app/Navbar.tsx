@@ -8,11 +8,13 @@ import { cn } from "@/lib/utils"
 import {
     NavigationMenu,
     NavigationMenuContent,
+    NavigationMenuIndicator,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
     navigationMenuTriggerStyle,
+    NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 
 
@@ -28,13 +30,39 @@ export default function Heading() {
                 </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-                <Link href="/2" legacyBehavior passHref>2</Link>
+                <Link href="/Photoshop" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        Photoshop
+                    </NavigationMenuLink>
+                </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-                <Link href="/3" legacyBehavior passHref>3</Link>
+                    <Link href="/Przedmioty" legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        Przedmioty
+                        </NavigationMenuLink>
+                    </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-                <Link href="/4" legacyBehavior passHref>4</Link>
+                <Link href="/Koszt-dostawy-pizzy" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        Koszt dostawy pizzy
+                    </NavigationMenuLink>
+                </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+                <Link href="/Lorem-ipsum-1" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        Lorem ipsum 1
+                    </NavigationMenuLink>
+                </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+                <Link href="/Lorem-ipsum-2" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        Lorem ipsum 2
+                    </NavigationMenuLink>
+                </Link>
             </NavigationMenuItem>
         </NavigationMenu>
     )

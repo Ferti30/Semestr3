@@ -10,6 +10,31 @@
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/Photoshop/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Photoshop/page.js"
+    ],
+    "/Przedmioty/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Przedmioty/page.js"
+    ],
+    "/Koszt-dostawy-pizzy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Koszt-dostawy-pizzy/page.js"
+    ],
+    "/Lorem-ipsum-1/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Lorem-ipsum-1/page.js"
+    ],
+    "/Lorem-ipsum-2/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/Lorem-ipsum-2/page.js"
     ]
   }
 }
