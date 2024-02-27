@@ -1,7 +1,8 @@
 {
-  "/Koszt-dostawy-pizzy/page": "app/Koszt-dostawy-pizzy/page.js",
   "/page": "app/page.js",
   "/Photoshop/page": "app/Photoshop/page.js",
   "/Lorem-ipsum-2/page": "app/Lorem-ipsum-2/page.js",
-  "/Lorem-ipsum-1/page": "app/Lorem-ipsum-1/page.js"
+  "/Lorem-ipsum-1/page": "app/Lorem-ipsum-1/page.js",
+  "/Przedmioty/page": "app/Przedmioty/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

@@ -21,11 +21,12 @@ import {
 
 export default function Heading() {
     return (
+        <div className="flex w-100 text-center justify-center">
         <NavigationMenu>
             <NavigationMenuItem>
                 <Link href="./" legacyBehavior passHref>
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                        Glowna
+                        Convex
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>
@@ -64,6 +65,6 @@ export default function Heading() {
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>
-        </NavigationMenu>
+            </NavigationMenu></div>
     )
 }
